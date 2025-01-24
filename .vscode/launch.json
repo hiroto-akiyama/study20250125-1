@@ -10,6 +10,23 @@
       "request": "launch",
       "command": "yarn dev",
       "cwd": "${workspaceFolder}/app"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack://?:*/*": "${webRoot}/src/*"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Launch Next.js and Chrome",
+      "configurations": ["Start Next.js debug", "Launch Chrome"]
     }
   ]
 }

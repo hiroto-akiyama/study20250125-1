@@ -309,7 +309,7 @@ const TextBox = styled.input`
 
 ### Material-UI
 
-https://mui.com/?srsltid=AfmBOoqywWqGmpvuNWCIqbNK4lovW405J79UmOb2CYq2fd_RAIAePfIm
+https://mui.com/
 
 ```
 yarn add @mui/material @emotion/react @emotion/styled
